@@ -1,4 +1,4 @@
-print("Student Grade Calculator")
+print("Advance Student grade calculator")
 
 #get the marks for each subject
 m1 = float(input("marks for subject1: "))
@@ -7,7 +7,7 @@ m3 = float(input("marks for subject3: "))
 
 #validation input for the marks
 if not(0<=m1<=100 and 0<=m2<=100 and 0<=m3<=100):
-	print("Invalid Input: The grade must be between 0 and 100)
+	print("Invalid Input: The grade must be between 0 and 100")
 	exit()
 
 #calculate the average
@@ -28,8 +28,8 @@ else:
 
 print("Letter Grade: ", grade)
 
-if grade >=60:
+if average >=60:
 	print("Status: Pass")
 else:
-	print(Status: Fail")
+	print("Status: Fail")
 
